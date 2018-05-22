@@ -10,7 +10,7 @@
     ],
     "plugins": {
         "YuanFul": {
-            "version": "dev",
+            "version": "1.0.2",
             "provider": "wx2ca7a9c0f8d4e2b9"
         }
     },
@@ -25,6 +25,5 @@
         "connectSocket": 10000,
         "uploadFile": 10000,
         "downloadFile": 10000
-    },
-    "debug": true
+    }
 }
