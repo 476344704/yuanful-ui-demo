@@ -1,0 +1,30 @@
+{
+    "pages": [
+        "pages/component/index/index",
+        "pages/component/city-index-list/city-index-list",
+        "pages/component/searchbar/searchbar",
+        "pages/component/calendar/calendar",
+        "pages/component/float-button/float-button",
+        "pages/component/popover/popover",
+        "pages/component/noticebar/noticebar"
+    ],
+    "plugins": {
+        "YuanFul": {
+            "version": "dev",
+            "provider": "wx2ca7a9c0f8d4e2b9"
+        }
+    },
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "元符UI",
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#f8f8f8"
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}

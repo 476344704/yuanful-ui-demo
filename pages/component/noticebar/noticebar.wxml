@@ -1,0 +1,21 @@
+<noticebar
+    content="{{content}}"
+    animation="{{animation}}"
+    show-closer="{{showCloser}}"
+    styles="{{styles}}"
+    bind:tapbar="onTapBar"
+/>
+
+
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">noticebar</view>
+        <view class="page__desc">通告栏</view>
+    </view>
+
+    <view class="page__bd page__bd_spacing">
+
+        <button class="demo-btn" bind:tap="onClickBtn">{{animation ? '停止' : '滚动'}}</button>
+        
+    </view>
+</view>

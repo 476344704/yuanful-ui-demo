@@ -1,0 +1,20 @@
+<city-index-list
+    theme="deep-blue"
+    visible="{{cityVisible}}"
+    styles="{{cityStyles}}"
+    bind:select="onSelectCity"
+/>
+
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">city-index-list</view>
+        <view class="page__desc">城市选择列表</view>
+        <view class="page__desc">结果：<text class="demo-result">{{result}}</text></view>
+    </view>
+
+    <view class="page__bd page__bd_spacing">
+
+        <button class="demo-btn" bind:tap="onClickBtn">显示</button>
+        
+    </view>
+</view>

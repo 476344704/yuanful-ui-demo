@@ -1,0 +1,11 @@
+<float-button
+    bind:tapfloat="onTapBtn"
+/>
+
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">float-button</view>
+        <view class="page__desc">浮动按钮</view>
+        <view class="page__desc">结果：<text class="demo-result">开启状态 {{result ? 'true' : 'false'}}</text></view>
+    </view>
+</view>

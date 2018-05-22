@@ -1,0 +1,21 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">
+            元符UI
+            <text class="sup">v1.0.2</text>
+        </view>
+        <view class="page__desc">这是一套可添加到小程序内直接使用的功能插件，无需重复开发，为用户提供更丰富的服务。无需确认，申请后即可添加插件，免费使用。</view>
+    </view>
+    <view class="page__bd page__bd_spacing">
+        <view class="kind-list">
+            <block wx:for="{{components}}" wx:key="id">
+                <navigator class="kind-list__item" url="/pages/component/{{item.id}}/{{item.id}}">
+                    <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}">
+                        <view class="weui-flex__item">{{item.name}}<text class="item-id">{{item.id}}</text></view>
+                        <image class="kind-list__img {{item.id}}" src="/images/icon_component_{{item.id}}.png"></image>
+                    </view>
+                </navigator>
+            </block>
+        </view>
+    </view>
+</view>

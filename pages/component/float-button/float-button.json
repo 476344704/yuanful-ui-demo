@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "float-button": "plugin://YuanFul/float-button"
+    }
+}

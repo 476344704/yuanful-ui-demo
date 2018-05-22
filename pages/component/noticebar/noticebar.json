@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "noticebar": "plugin://YuanFul/noticebar"
+    }
+}
