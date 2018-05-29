@@ -16,7 +16,7 @@
     ],
     "plugins": {
         "YuanFul": {
-            "version": "dev",
+            "version": "1.0.3",
             "provider": "wx2ca7a9c0f8d4e2b9"
         }
     },
