@@ -2,7 +2,7 @@
     <view class="page__hd">
         <view class="page__title">
             元符UI
-            <text class="sup">v1.0.2</text>
+            <text class="sup">v1.0.3</text>
         </view>
         <view class="page__desc">这是一套可添加到小程序内直接使用的功能插件，无需重复开发，为用户提供更丰富的服务。无需确认，申请后即可添加插件，免费使用。</view>
     </view>
