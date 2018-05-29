@@ -1,0 +1,4 @@
+/* pages/component/accordion/accordion.wxss */
+view{
+    box-sizing: border-box
+}

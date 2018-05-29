@@ -1,0 +1,7 @@
+.content2{
+    color: #666;
+}
+
+.item{
+    margin-bottom: 30rpx;
+}

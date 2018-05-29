@@ -1,0 +1,22 @@
+ <view class="page">
+    <view class="page__hd">
+        <view class="page__title">tabs</view>
+        <view class="page__desc">标签页</view>
+        <view class="page__desc"><navigator url="/pages/component/tabs-vertical/tabs-vertical" style="color:blue">查看垂直标签页</navigator> </view>
+    </view>
+
+    <view class="page__bd page__bd_spacing">
+
+         <tabs
+            theme="deep-blue"
+            option="{{ option }}"
+            bind:change="onTabChange"
+            active-index="activeIndex"
+        >
+            <view slot="tabs0">内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1内容1</view>
+            <view slot="tabs1">内容2内容2内容2内容2内容2</view>
+            <view slot="tabs2">内容3</view>
+        </tabs> 
+        
+    </view>
+</view>

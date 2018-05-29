@@ -12,7 +12,12 @@
                 <navigator class="kind-list__item" url="/pages/component/{{item.id}}/{{item.id}}">
                     <view id="{{item.id}}" class="weui-flex kind-list__item-hd {{item.open ? 'kind-list__item-hd_show' : ''}}">
                         <view class="weui-flex__item">{{item.name}}<text class="item-id">{{item.id}}</text></view>
-                        <image class="kind-list__img {{item.id}}" src="/images/icon_component_{{item.id}}.png"></image>
+                        <!-- <image wx:if="{{item.img !== false}}" class="kind-list__img {{item.id}}" src="/images/icon_component_{{item.id}}.png"></image> -->
+                        <ico
+                            theme="deep-blue"
+                            icon="{{item.icon}}"
+                            size="50rpx"
+                        />
                     </view>
                 </navigator>
             </block>

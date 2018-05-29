@@ -1,0 +1,20 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">accordion</view>
+        <view class="page__desc">手风琴</view>
+    </view>
+
+    <view class="page__bd page__bd_spacing">
+
+        <accordion
+            theme="deep-blue"
+            option="{{option}}"
+            bind:change="onChange"
+        >
+            <view slot="accordion0">内容1</view>
+            <view slot="accordion1">内容2</view>
+            <view slot="accordion2">内容3</view>
+        </accordion>
+
+    </view>
+</view>

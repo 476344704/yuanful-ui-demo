@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "accordion": "plugin://YuanFul/accordion"
+    }
+}

@@ -1,0 +1,12 @@
+<view class="page">
+    <searchbar
+        theme="deep-blue"
+        static="true"
+        bind:search="onSearch"
+    />
+
+    <view class="page__hd">
+        <view class="page__desc">这是静态搜索栏</view>
+        <view class="page__desc">结果：<text class="demo-result">{{result}}</text></view>
+    </view>
+</view>

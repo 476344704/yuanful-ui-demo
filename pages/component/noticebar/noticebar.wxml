@@ -1,4 +1,5 @@
 <noticebar
+    theme="deep-blue"
     content="{{content}}"
     animation="{{animation}}"
     show-closer="{{showCloser}}"

@@ -1,0 +1,10 @@
+.item{
+    display: inline-block;
+    width: 25%;
+}
+
+.item text{
+    display: block;
+    text-align: center;
+    font-size: 20rpx;
+}

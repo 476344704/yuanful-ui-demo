@@ -10,6 +10,7 @@
         <view class="page__title">searchbar</view>
         <view class="page__desc">搜索栏</view>
         <view class="page__desc">结果：<text class="demo-result">{{result}}</text></view>
+        <view class="page__desc"><navigator url="/pages/component/searchbar-static/searchbar-static" style="color:blue">查看静态搜索栏</navigator> </view>
     </view>
 
     <view class="page__bd page__bd_spacing">

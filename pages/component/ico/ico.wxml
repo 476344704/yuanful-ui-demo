@@ -1,0 +1,20 @@
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">icon</view>
+        <view class="page__desc">图标</view>
+    </view>
+
+    <view class="page__bd">
+
+        <view class="item"  wx:for="{{icons}}">
+            <ico
+                theme="deep-blue"
+                icon="{{item}}"
+                size="50rpx"
+                bind:tapicon="tapicon"
+            />
+            <text>{{item}}</text>
+        </view>
+        
+    </view>
+</view>

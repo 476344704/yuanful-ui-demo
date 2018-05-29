@@ -10,4 +10,5 @@
 <img width="300" src="images/preview-qrcode.png" alt="yuanful-ui" />
   <br>
 <img width="300" src="images/preview.png" alt="yuanful-ui" />
+<img width="300" src="images/preview2.png" alt="yuanful-ui" />
 </div>

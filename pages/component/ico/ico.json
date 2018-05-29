@@ -1,5 +1,4 @@
 {
-    "navigationBarTitleText": "元符UI",
     "usingComponents": {
         "ico": "plugin://YuanFul/ico"
     }
